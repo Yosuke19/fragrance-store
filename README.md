@@ -5,6 +5,7 @@ This version follows the same plain-file approach as the OZK Surfboards website.
 ## Files you will normally edit
 
 - `products.js` — add or change perfumes, descriptions, prices, sizes, notes, and images
+- `Pictures/` — locally stored perfume product images
 - `style.css` — change colors, spacing, fonts, and layout
 - `index.html` — change the homepage headline and introductory content
 - `about.html` — change the company story
@@ -29,7 +30,7 @@ Open `products.js`, copy an existing product block, paste it before the final `]
 
 The current catalog contains starter prices only. Replace them with your final prices after confirming each bottle cost, packaging cost, payment fees, and target margin.
 
-Descriptions should be original or properly licensed. You can use official notes and factual details as source material, but do not copy brand-site text or product photography unless you have permission.
+Descriptions and product photography should be original or properly licensed. To change a product picture, add the new image to `Pictures/`, then update that product's `image` value in `products.js`.
 
 ## Before taking payments
 
